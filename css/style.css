@@ -1,0 +1,73 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    padding: 5% 10%;
+}
+
+.banner {
+    max-width: 100%;
+}
+h1, h2 {
+    color: red;
+}
+
+.navbar {
+    background-color: black;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    font-size: 200%;
+    padding: 0 7%;
+}
+
+li a:hover {
+    background-color: tomato;
+}
+
+.active {
+    background-color: grey;
+}
+
+iframe {
+    margin-left: 25%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    border: 1px solid black;
+}
+
+.form-container {
+    border: 2px solid black;
+}
+
+form {
+    padding: 1%;
+}
+
+label, input {
+    margin: 1% 0;
+}
